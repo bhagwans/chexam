@@ -15,7 +15,7 @@ Things you may want to cover:
     rake db:create
 
 * How to run the test suite
-    rspec spec/controllers/user_exams_controller_spec.rb
+    => rspec spec/controllers/user_exams_controller_spec.rb
 
 * Setup instructions
     1. rake db:create
@@ -24,9 +24,10 @@ Things you may want to cover:
     4. rails s
 
 * Assigning exam to user
-    POST http://localhost:3000/user_exams
-    Request body 
+     
+    * Request => POST http://localhost:3000/user_exams 
 
+    * Request body => 
     {
         "user_exam": {
             "first_name": "Bhagwan",
